@@ -1,0 +1,325 @@
+/* dark mode */
+.dark-mode>div,
+.dark-mode>section,
+.dark-mode .navbar {
+  background: #2c3e50;
+
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode .navbar a,
+.dark-mode .shop .card p,
+.dark-mode .shop .card h5 {
+  color: #fff !important;
+}
+
+.dark-mode .review-slider p,
+.dark-mode .order-now p,
+.dark-mode .order-now h5 {
+  color: #2c3e50 !important;
+}
+
+.dark-mode .card p,
+.dark-mode .card h5 {
+  color: #2c3e50 !important;
+}
+
+.dark-mode section.review-slider .container::after {
+  display: none;
+}
+
+
+.product-carousel .slick-prev,
+.product-carousel .slick-next {
+  color: #fff !important;
+  background: linear-gradient(47deg, rgba(63, 237, 200, 1) 0%, rgba(0, 182, 186, 1) 100%) !important;
+  width: 60px !important;
+  height: 50px !important;
+  padding: 15px !important;
+  border-radius: 10px;
+  top: inherit !important;
+  bottom: calc(0% - 30%);
+}
+
+.product-carousel .slick-prev {
+  left: calc(50% - 70px) !important;
+}
+
+.product-carousel .slick-next {
+  right: calc(50% - 70px) !important;
+}
+
+.product-carousel .slick-prev:hover,
+.product-carousel .slick-prev:focus,
+.product-carousel .slick-next:hover,
+.product-carousel .slick-next:focus {
+  color: #2c3e50 !important;
+  outline: none;
+  background: white !important;
+}
+
+.product-carousel .slick-list {
+  margin-bottom: 4rem;
+}
+
+.text-dark {
+  color: #2c3e50 !important;
+
+}
+
+.bg-dark {
+  background-color: #2c3e50 !important;
+}
+
+.filter-active,
+.product-filter-bar .btn:hover {
+  background: linear-gradient(47deg, rgba(63, 237, 200, 1) 0%, rgba(0, 182, 186, 1) 100%) !important;
+  color: #fff !important;
+}
+
+.form-switch .form-check-input {
+  width: 2.5em;
+  padding: .8rem 1.5rem;
+}
+
+.form-check-input:checked {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+
+.form-check-input:focus {
+  border-color: #86b7fe;
+  box-shadow: unset
+}
+
+#darkSwitch {
+  cursor: pointer;
+  border: 1px solid lightskyblue;
+}
+
+/* Home review section */
+/* section.review-slider .container {
+  position: relative;
+}
+
+section.review-slider .container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background: #2c3e50;
+  bottom: -20%;
+  border-radius: 10px 10px 6px 6px;
+  z-index: -1;
+} */
+
+section.review-slider .slick-slider>button {
+  display: none !important;
+}
+
+.dark-mode .slick-dots li.slick-active button:before {
+  color: white !important;
+}
+
+.dark-mode .slick-dots li button:before {
+  color: white !important;
+}
+
+/*contact page*/
+.contact-form form {
+  max-width: 600px;
+}
+
+.contact-form .form-control:focus {
+  box-shadow: 0px 2px 0px 0px rgba(13, 110, 253, .25)
+}
+
+.dark-mode .contact-form .form-control:focus {
+  box-shadow: 0px 2px 0px 0px rgba(215, 215, 215, 0.834)
+}
+
+/*Blog page*/
+.blogs img.card-img-top {
+  height: 8rem;
+  object-fit: cover;
+}
+
+/* shop page */
+.shop .card {
+  transition-duration: .5s;
+}
+
+.shop .card:hover.card .card-image {
+  box-shadow: none !important;
+}
+
+.shop .card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+  cursor: pointer;
+}
+
+/*Service page*/
+.all-services .card,
+.all-services .card h3,
+.all-services .card span,
+.all-services .card p,
+.all-services .card .btn {
+  transition-duration: .5s !important;
+}
+
+.all-services .card:hover {
+  background-image: linear-gradient(135deg, #3393F0 0%, #6EC1E4 100%);
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+
+.all-services .card:hover h3,
+.all-services .card:hover span,
+.all-services .card:hover p,
+.all-services .card:hover .btn {
+  color: #fff !important;
+}
+
+/*nursing page*/
+.available-nurse .card img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+/* cart page  */
+.cart-table table tbody tr td .product-img img {
+  max-width: 50px;
+}
+
+.cart-table table tbody tr td {
+  padding: 20px;
+}
+
+.cart-table table tbody tr {
+  vertical-align: middle;
+  border: 1px solid rgb(255 255 255 / 10%);
+}
+
+.product-quantity .qtySelector {
+  position: relative;
+  height: 42px;
+}
+
+.product-quantity .qtySelector span.decreaseQty {
+  bottom: 0;
+  z-index: 9;
+}
+
+.product-quantity .qtySelector span.increaseQty {
+  top: 6px;
+}
+
+.product-quantity .qtySelector span svg {
+  line-height: .7;
+  font-size: 16px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.product-quantity .qtySelector span.increaseQty svg {
+  top: -6px;
+}
+
+.product-quantity .qtySelector span.decreaseQty svg {
+  top: -6px;
+}
+
+.product-quantity .qtySelector span {
+  width: 20px;
+  position: absolute;
+  height: 16px;
+  right: 10px;
+  background: rgba(0, 0, 0, .08);
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+}
+
+.product-quantity .qtySelector input {
+  width: 100%;
+  background: 0 0;
+  border: none;
+  border-right: 1px solid rgba(69, 69, 70, .07);
+  left: 0;
+  position: relative;
+  height: 50px;
+  text-align: left;
+  color: #000;
+  border-radius: 0;
+  padding: 10px 40px 10px 15px;
+}
+
+.product-quantity {
+  width: 100px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.cart-table table tbody tr td .cart-action,
+.update-cart {
+  width: 50px;
+  height: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.cart-table table tbody tr td .cart-action svg,
+.update-cart svg {
+  font-size: 22px;
+}
+
+.cart-table table tbody tr td .cart-action:hover,
+.update-cart:hover {
+  background-color: #d72324 !important;
+  color: #fff;
+}
+
+.cart-total {
+  border: 1px solid rgba(255, 255, 255, .2);
+}
+
+.cart-total .cart-total-wrap>div:last-child {
+  margin-bottom: 0;
+  margin-top: 20px;
+  border-top: 1px solid rgba(221, 221, 221, 0.15);
+  padding-top: 20px;
+}
+
+/*ambulance-service page*/
+.ambulance-service .card img {
+  max-height: 15em;
+  height: 100%;
+  object-fit: cover;
+}
+
+body .product-card img {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover;
+  transition-duration: .5s;
+}
+
+.product-card:hover img {
+  transform: scale(1.2);
+}
